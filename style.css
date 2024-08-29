@@ -1,0 +1,55 @@
+.nav-masthead{
+    display: flex;
+    gap: 50px;
+}
+.nav-link{ 
+    /* color of the home button. */
+    color: red;
+}
+.background{
+    background: repeating-radial-gradient(120deg,red,green,blue);
+}
+#heading{
+    font-family:Edu AU VIC WA NT ;
+    text-align: center;
+    margin-top: 100px;
+}
+.lead{
+    /* margin-right: 260px; */
+    text-align: center;
+    font-size: x-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.box{
+    background-color: #eeefea;
+    display: grid;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(156, 156, 156);
+    /* box-shadow: 100px; */
+    width: 72vh;
+    gap:20px;
+    height: 43vh;
+    padding: 50px;
+    text-align: left;
+    padding-bottom: 150px;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    box-shadow:inset;
+}
+
+p{
+    font-size: large;
+    font-family:sans-serif;
+    text-align:start ;
+}
+#date{
+    margin-bottom: 10px;
+}
+#buttons{
+    display: inline-flex;
+    gap: 60px;
+}
+

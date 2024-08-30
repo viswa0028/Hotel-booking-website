@@ -51,5 +51,13 @@ p{
 #buttons{
     display: inline-flex;
     gap: 60px;
+    
+}
+#b{
+ transition: 0.2s;
+}
+#b:hover{
+    color: red;
 }
 
+/* 362 289.44 */
